@@ -1,0 +1,3 @@
+npm install -g atlas-app-services-cli
+appservices login --api-key <bkghkzkb> --private-api-key <b8d59a565-512a-4787-911a-7a0fa7564c5e>
+appservices pull --remote application-0-xlgmuzg
