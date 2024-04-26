@@ -2,7 +2,7 @@ from datetime import datetime
 from pytz import timezone
 from pyrogram import Client
 from pyrogram.raw.all import layer
-from plugin import setup.py
+from plugins import setup.py
 from config import Config
 from aiohttp import web
 from route import web_server
