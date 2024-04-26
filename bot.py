@@ -1,6 +1,6 @@
 from datetime import datetime
 from pytz import timezone
-from pyrogram import Client, __version__
+from pyrogram import Client
 from pyrogram.raw.all import layer
 from config import Config
 from aiohttp import web
