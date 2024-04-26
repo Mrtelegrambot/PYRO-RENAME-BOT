@@ -26,23 +26,23 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "21102617")
+    API_HASH  = os.environ.get("API_HASH", "31de0d24a6b8048c48730bc420f4b70c")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7123788891:AAEOzRzW7aVzwdIXSLuDHaLgJUtctCbIYGQ") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","pyro-botz")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","Cluster0")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://Mrapr:<Ammbappur33@>@cluster0.kztqe6q.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
-    BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", None))
+    BOT_UPTIME  = time.time(100)
+    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/3115d006744b151093e19.jpg")
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6300568870').split()]
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "mraprmovie") 
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002085759532")
 
     # wes response configuration     
-    WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
+    WEBHOOK = bool(os.environ.get("WEBHOOK", "False")
 
 
 
